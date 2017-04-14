@@ -1,4 +1,5 @@
 
+
 body, html {
 	/*height: 100%;*/
 	margin: 0;
@@ -159,6 +160,18 @@ Intro Page Styling End
 Intro Page Styling End
 **************/
 
+/*************
+Intro about styling
+**************/
+.mayorPics {
+	position: block;
+	margin: 2.5em;
+}
+.mayor {
+	float: right;
+}
+
+
 
 
 /***********************
@@ -196,5 +209,7 @@ Places Page Styling End
 
 
 
+/* ---- About page styling ---- */
+/* ---------------------------- */
 
 
