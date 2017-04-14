@@ -37,7 +37,7 @@ Nav Bar Styling
 ********************/
 
 .background {
-	background-image: url("/imgs/010.jpg");
+	background-image: url("/images/downtown.jpg");
 	height: 100vh;
 	background-attachment: fixed;
     background-position: center;
@@ -83,7 +83,7 @@ Intro Page Styling
 ********************/
 
 #background {
-	background-image: url("/imgs/010.jpg");
+	background-image: url("/images/downtown.jpg");
 	height: 100vh;
 	background-attachment: fixed;
     background-position: center;
