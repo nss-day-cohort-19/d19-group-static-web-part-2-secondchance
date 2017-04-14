@@ -166,6 +166,12 @@ Intro about styling
 	position: block;
 	margin: 2.5em;
 }
+
+.mayorPics {
+	background-color: rgb(240, 248, 255);
+	opacity: 50%;
+}
+
 .mayor {
 	float: right;
 }
