@@ -5,7 +5,7 @@ body, html {
 }
 
 #wrapper {
-	width: 80%;
+	width: 100%;
 }
 
 /*************
@@ -156,25 +156,45 @@ Intro Page Styling End
 }
 
 /*************
-
+Intro Page Styling End
 **************/
 
 
 
+/***********************
+Places Page Styling
+***********************/
+
+
+.spots {
+	border: solid 1px black;
+	display: inline-flex;
+	box-shadow: 10px 15px 50px grey;
+	padding: 1em;
+	margin: 10% 2% 0;
+	width: 25%;
+	height: 20em;
+}
+
+.locale-name {
+
+}
+
+.locale-description {
+
+}
+
+.locale-price {
+
+}
+
+
+/***********************
+Places Page Styling End
+***********************/
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> master
 
