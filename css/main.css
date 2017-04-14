@@ -1,4 +1,5 @@
 
+
 body, html {
 	/*height: 100%;*/
 	margin: 0;
@@ -7,6 +8,7 @@ body, html {
 #wrapper {
 	width: 100%;
 }
+
 
 /*************
 CONTACT PAGE
@@ -159,6 +161,16 @@ Intro Page Styling End
 
 **************/
 
+/*************
+Intro about styling
+**************/
+.mayorPics {
+	position: block;
+	margin: 2.5em;
+}
+.mayor {
+	float: right;
+}
 
 
 
@@ -176,5 +188,8 @@ Intro Page Styling End
 
 
 
->>>>>>> master
+
+/* ---- About page styling ---- */
+/* ---------------------------- */
+
 
