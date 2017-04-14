@@ -1,0 +1,67 @@
+
+body {
+	background: url(https://momentummag.com/wp-content/uploads/2015/01/BELLS_USA_Nashville_Skyline_Photo-Trisha-Ping-web.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.navigation {
+	height: 5em;
+	width: 100%;
+}
+
+
+.main-container {
+	width: 80%;
+	margin: auto;
+
+}
+
+.main-item {
+	justify-content: space-between;
+	background-color: green;
+	border: 2px solid black;
+	align-items: center;
+	margin: 30px auto;
+	opacity: 0.6;
+	border-radius: 2%;
+	box-shadow: 5px 5px 5px;
+	padding-left: 20px;
+}
+
+.main-item:hover {
+	font-size: 1.5em;
+	transition-duration: .15s;
+	opacity: .9;
+}
+
+textarea {
+	background-color: #F0E68C;
+	opacity: .9;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.thoughts {
+	margin: auto;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.75em;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.submit {
+	width: 10em;
+	color: darkslateblue;
+	box-shadow: 1px 1px 1px black;
+}
+
+
+
