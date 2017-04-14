@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 
 body, html {
 	/*height: 100%;*/
@@ -6,7 +6,7 @@ body, html {
 }
 
 #wrapper {
-=======
+}
 /*#wrapper {
 >>>>>>> Stashed changes
 	width: 80%;
@@ -54,7 +54,6 @@ Nav Bar Styling
 
 .navigation {
 	display: flex;
-<<<<<<< Updated upstream
 	width: 100%;
 	height: 6em;
 }
@@ -164,7 +163,16 @@ Intro Page Styling End
 
 **************/
 
-
+/*************
+Intro about styling
+**************/
+.mayorPics {
+	position: block;
+	margin: 2.5em;
+}
+.mayor {
+	float: right;
+}
 
 
 
