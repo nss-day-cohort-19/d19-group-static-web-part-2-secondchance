@@ -1,8 +1,96 @@
+body, html {
+	/*height: 100%;*/
+	margin: 0;
+}
+
 #wrapper {
 	width: 80%;
 	margin: auto;
 }
 
+
+
+/********************
+Nav Bar Styling
+********************/
+
+.background {
+	background-image: url("/imgs/010.jpg");
+	height: 100vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+	align-items: top;
+	justify-content: center;
+}
+
 .navigation {
 	display: flex;
+	width: 100%;
+	height: 6em;
 }
+
+.navigation a {
+	width: 25%;
+	text-align: center;
+	padding: 2em 0;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: rgb(200, 200, 200);
+	background-color: rgba(20, 20, 20, 0.5);
+}
+
+.navigation a:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: rgb(20, 20, 20);
+	font-size: 1.75em;
+	transition-duration: .1s;
+	padding-bottom: 3em;
+}
+
+/********************
+Nav Bar Styling End
+********************/
+
+
+/********************
+Intro Page Styling
+********************/
+
+#background {
+	background-image: url("/imgs/010.jpg");
+	height: 100vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    /*padding: 20em 15em 1em;*/
+}
+
+
+#introNav {
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	padding: 2em 5em;
+	border-radius: 15px;
+
+}
+
+#introNav a {
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+}
+
+
+/********************
+Intro Page Styling End
+********************/
+
