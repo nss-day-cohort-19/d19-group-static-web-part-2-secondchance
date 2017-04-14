@@ -1,4 +1,5 @@
 
+
 var spots = document.getElementById("places");
 
 var areas = [
@@ -60,5 +61,4 @@ for (element in areas) {
                 </div>`;
     spots.innerHTML += place;
 }
-
 
