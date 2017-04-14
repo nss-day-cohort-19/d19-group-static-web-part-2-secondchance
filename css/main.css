@@ -7,6 +7,7 @@ body, html {
 
 #wrapper {
 	width: 100%;
+	margin: 0;
 }
 /*************
 CONTACT PAGE
@@ -38,7 +39,7 @@ Nav Bar Styling
 
 .background {
 	background-image: url("/images/downtown.jpg");
-	height: 100vh;
+	height: 220vh;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,7 +98,7 @@ Intro Page Styling
 
 
 #introNav {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(150, 150, 150, 0.7);
 	text-align: center;
 	padding: 2em 5em;
 	border-radius: 15px;
