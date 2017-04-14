@@ -1,75 +1,64 @@
-var places = [
 
+
+var spots = document.getElementById("places");
+
+var areas = [
 {
-	name: "12 South",
-	description: "College kids and wasps",
-	price: "Cheap",
-	url:"#"
+    name: "12th South",
+    description: "College kids and Yuppies",
+    price: "$3 Tacos",
+    url:"#"
 },
 {
-	name: "LowerBroad",
-	description: "What you'd expect",
-	price: "Cheap",
-	url:"#"
+    name: "Lower Broadway",
+    description: "Honky Tonks and Bachelorette Parties",
+    price: "How much do you drink?",
+    url:"#"
 },
 {
-	name: "East Nashville",
-	description: "Hipster",
-	price: "Not cheap",
-	url:"#"
+    name: "East Nashville",
+    description: "Hipster",
+    price: "Used to be cheap. $4 tacos",
+    url:"#"
 },
 {
-	name: "GermanTown",
-	description: "German",
-	price: "Moderate",
-	url:"#"
+    name: "GermanTown",
+    description: "Part of the Gentrified Urban Core",
+    price: "$12 Hot Chicken",
+    url:"#"
 },
 {
-	name: "The Gulch",
-	description: "Rich people",
-	price: "Expensive",
-	url:"#"
+    name: "The Gulch",
+    description: "Rich people",
+    price: "Expensive",
+    url:"#"
 },
 {
-	name: "Melrose",
-	description: "Chill",
-	price: "Not bad",
-	url:"#"
+    name: "Melrose",
+    description: "Chill",
+    price: "Not bad during happy hour",
+    url:"#"
 },
 {
-	name: "SoBro",
-	description: "Don't know",
-	price: "Cheap",
-	url:"#"
+    name: "SoBro",
+    description: "This place is still developing it's own vibe",
+    price: "$12 Cocktails",
+    url:"#"
 },
 {
-	name: "Franklin",
-	description: "Far away from Nashville",
-	price: "Pricey",
-	url:"#"
+    name: "Franklin",
+    description: "Quiet Respite from Nashville",
+    price: "Moderate to Expensive",
+    url:"#"
 }];
 
-var placesDoc = document.getElementById("places");
-
-
-for (var i = 0; places.length; i++){
-	var placesDiv = `<div class="card">
-						<p class="card-name">${places[i].name}</p>
-						<img class="card-image" alt="locale" src="${places[i].url}">
-						<p class="card-description">${places[i].description}</p>
-						<p class="card-price">${places[i].price}</p>
-					</div>`
+for (element in areas) {
+	var place = `<div class="spots">
+				 	<p class="locale-name">${areas[element].name}</p>
+                 	<img alt="Locale" class="spot-images" src="${areas[element].url}">
+                    <p class="locale-description">${areas[element].description}</p>
+                    <p class="locale-price">${areas[element].price}</p>
+                </div>`;
+    spots.innerHTML += place;
 }
 
-
-
-for (prop in places) {
-	var placesDiv = `<div class="card">
-						<p class="card-name">${places[prop].name}</p>
-						<img class="card-image" alt="locale" src="${places[prop].url}">
-						<p class="card-description">${places[prop].description}</p>
-						<p class="card-price">${places[prop].price}</p>
-					</div>`
-
-	placesDoc.innerHTML += placesDiv;
-}
