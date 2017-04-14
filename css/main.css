@@ -1,11 +1,6 @@
-
-body, html {
-	/*height: 100%;*/
-	margin: 0;
-}
-
 #wrapper {
 	width: 80%;
+	margin: auto;
 }
 
 /*************
@@ -29,8 +24,44 @@ CONTACT PAGE
 	margin-bottom: 25px
 }
 
+.containerone h1, .containerone form, {
+	margin-left: 25px;
+}
 
+.containerone h1, .containerone h4, .containerone p {
+	margin-left: 25px;
+}
 
+.containertwo {
+	width: 40%;
+	display: flex;
+	margin-right: 55px;
+}
+
+.containertwo aside {
+	margin-left: 100px;
+}
+
+.form {
+	border: solid 1px black;
+	padding: 25px;
+}
+
+.text {
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 4px 4px #d0d6e0;
+	width: 70%;
+}
+
+.submit {
+	background-color: #d0d6e0;
+	width: 45%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 1.2em;
+	font-style: italic;
+}
 
 /********************
 Nav Bar Styling
@@ -116,44 +147,7 @@ Intro Page Styling
 Intro Page Styling End
 ********************/
 
-.containerone h1, .containerone form, {
-	margin-left: 25px;
-}
 
-.containerone h1, .containerone h4, .containerone p {
-	margin-left: 25px;
-}
-
-.containertwo {
-	width: 40%;
-	display: flex;
-	margin-right: 55px;
-}
-
-.containertwo aside {
-	margin-left: 100px;
-}
-
-.form {
-	border: solid 1px black;
-	padding: 25px;
-}
-
-.text {
-	padding: 10px;
-	margin: 10px;
-	box-shadow: 4px 4px #d0d6e0;
-	width: 70%;
-}
-
-.submit {
-	background-color: #d0d6e0;
-	width: 45%;
-	padding: 10px;
-	margin: 10px;
-	font-size: 1.2em;
-	font-style: italic;
-}
 
 /*************
 
