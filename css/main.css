@@ -19,7 +19,11 @@ CONTACT PAGE
 	margin-bottom: 25px
 }
 
-.containerone h1, .containerone form {
+.containerone h1, .containerone form, {
+	margin-left: 25px;
+}
+
+.containerone h1, .containerone h4, .containerone p {
 	margin-left: 25px;
 }
 
