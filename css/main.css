@@ -43,7 +43,7 @@ Nav Bar Styling
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+/*    display: flex;*/
 	align-items: top;
 	justify-content: center;
 }
