@@ -7,49 +7,49 @@ var areas = [
     name: "12th South",
     description: "College kids and Yuppies",
     price: "$3 Tacos",
-    url:"#"
+    url:"/images/fivePoints.jpg"
 },
 {
     name: "Lower Broadway",
     description: "Honky Tonks and Bachelorette Parties",
     price: "How much do you drink?",
-    url:"#"
+    url:"/images/nashville1.jpg"
 },
 {
     name: "East Nashville",
     description: "Hipster",
     price: "Used to be cheap. $4 tacos",
-    url:"#"
+    url:"/images/fivePoints.jpg"
 },
 {
     name: "GermanTown",
     description: "Part of the Gentrified Urban Core",
     price: "$12 Hot Chicken",
-    url:"#"
+    url:"/images/germanTown1.jpg"
 },
 {
     name: "The Gulch",
     description: "Rich people",
     price: "Expensive",
-    url:"#"
+    url:"/images/gulch.jpg"
 },
 {
     name: "Melrose",
     description: "Chill",
     price: "Not bad during happy hour",
-    url:"#"
+    url:"/images/melrose.jpg"
 },
 {
     name: "SoBro",
     description: "This place is still developing it's own vibe",
     price: "$12 Cocktails",
-    url:"#"
+    url:"/images/sobro.jpg"
 },
 {
     name: "Franklin",
     description: "Quiet Respite from Nashville",
     price: "Moderate to Expensive",
-    url:"#"
+    url:"/images/franklin.jpg"
 }];
 
 for (element in areas) {
