@@ -53,6 +53,7 @@ Nav Bar Styling
 	display: flex;
 	width: 100%;
 	height: 6em;
+	position: fixed;
 }
 
 .navigation a {
@@ -165,13 +166,15 @@ Intro about styling
 **************/
 .mayorPics {
 	position: block;
-	margin: 2.5em;
+	background-color: rgba(240, 248, 255, 0.9);
+	margin: 0;
+	padding-top: 15%;
 }
 
-.mayorPics {
-	background-color: rgb(240, 248, 255);
-	opacity: 50%;
-}
+/*.mayorPics {
+	background-color: rgba(240, 248, 255, 0.9);*/
+/*	padding: 1em;*/
+/*}*/
 
 .mayor {
 	float: right;
